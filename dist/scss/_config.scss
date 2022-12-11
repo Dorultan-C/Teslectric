@@ -20,3 +20,9 @@ $accent-color: #ff5733;
     @return #fff;
   }
 }
+
+@mixin media-md {
+  @media screen and (min-width: 1300px) {
+    @content;
+  }
+}
