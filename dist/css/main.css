@@ -18,6 +18,10 @@
   padding-bottom: 1rem;
   margin-bottom: 1rem;
 }
+.home .social-icons {
+  display: flex;
+  flex-direction: column;
+}
 
 .menu-btn {
   position: absolute;
@@ -61,6 +65,7 @@
 .menu-btn__burger.open {
   transform: rotate(720deg);
   background: transparent;
+  z-index: 4;
 }
 .menu-btn__burger.open::before {
   transform: rotate(45deg) translate(5px, 8px);
@@ -266,6 +271,22 @@
   grid-template-columns: 1fr;
   grid-gap: 2rem;
   font-size: 1.5rem;
+}
+.contact .text-secondary {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.2rem;
 }
 
 body {

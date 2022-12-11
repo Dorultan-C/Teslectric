@@ -8,12 +8,6 @@ body {
   height: 100vh;
   position: relative;
 }
-/* .carousel {
-  
-  width: 100vh;
-  height: 100vh;
-  position: relative;
- } */
 
 .carousel > ul {
     margin: 0;
@@ -47,7 +41,7 @@ body {
     position: absolute;
     background: none;
     border: none;
-    font-size: 4rem;
+    font-size: 2rem;
     top: 50%;
     z-index: 2;
     transform: translateY(-50%);
@@ -81,9 +75,3 @@ body {
   flex-direction: column;
 }
 
-footer {
-  transform: 
-  rotate(90deg)
-  translate(-3rem, -5rem);
-
-}
