@@ -338,6 +338,10 @@ a {
   opacity: 0.5;
 }
 
+a .logo-header {
+  cursor: pointer;
+}
+
 header {
   position: fixed;
   z-index: 2;
@@ -359,6 +363,7 @@ main .book-trip-home {
   color: #fff;
   font-size: 1rem;
   font-weight: 600;
+  cursor: pointer;
 }
 main .social-icons {
   position: fixed;

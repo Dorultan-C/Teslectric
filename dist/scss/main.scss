@@ -32,8 +32,12 @@ a {
   width: 150px;
   border-radius: 5px;
   opacity: 0.5;
+  
 }
 
+a .logo-header {
+  cursor: pointer;
+}
 
 header {
   position: fixed;
@@ -56,6 +60,7 @@ main {
     color: $text-color;
     font-size: 1rem;
     font-weight: 600;
+    cursor: pointer;
   }
 
   .social-icons {
