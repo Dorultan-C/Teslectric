@@ -61,7 +61,8 @@ main {
     position: fixed;
     bottom: 1rem;
     left: 1rem;
-
+    z-index: 3; 
+    
     a {
       padding: 0.4rem;
       @include transition-ease;
@@ -80,6 +81,7 @@ footer {
   right: 1rem;
   padding: 1rem;
   color: set-text-color($primary-color);
+  z-index: 3;
 
 
 }

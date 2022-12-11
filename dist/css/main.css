@@ -321,6 +321,7 @@ main .social-icons {
   position: fixed;
   bottom: 1rem;
   left: 1rem;
+  z-index: 3;
 }
 main .social-icons a {
   padding: 0.4rem;
@@ -337,4 +338,5 @@ footer {
   right: 1rem;
   padding: 1rem;
   color: #fff;
+  z-index: 3;
 }

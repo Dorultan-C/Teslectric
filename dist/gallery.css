@@ -1,12 +1,19 @@
 *, *::before, *::after {
   box-sizing: border-box;
 }
-
-.carousel {
-  width: 90vh;
-  height: 90vh;
+body {
+  margin: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
   position: relative;
- }
+}
+/* .carousel {
+  
+  width: 100vh;
+  height: 100vh;
+  position: relative;
+ } */
 
 .carousel > ul {
     margin: 0;
@@ -67,4 +74,16 @@
 
 .carousel-button.next {
   right: 1rem;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  transform: 
+  rotate(90deg)
+  translate(-3rem, -5rem);
+
 }
