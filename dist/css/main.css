@@ -315,7 +315,8 @@ body {
   background: #272727;
   color: #fff;
   height: 100vh;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Nunito";
+  src: url(fonts/Nunito);
   line-height: 1;
 }
 

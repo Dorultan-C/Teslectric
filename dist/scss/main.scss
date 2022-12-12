@@ -11,7 +11,8 @@ body {
   background: $primary-color;
   color: set-text-color($primary-color);
   height: 100vh;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Nunito';
+  src: url(fonts/Nunito);
   line-height: 1;
 }
 
