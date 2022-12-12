@@ -363,7 +363,8 @@ main .book-trip-home {
   border: 0;
   color: #fff;
   font-size: 1rem;
-  font-weight: 600;
+  font-family: "Nunito";
+  font-weight: 700;
   cursor: pointer;
 }
 main .social-icons {
