@@ -52,23 +52,25 @@
         </div>
       </div>
       <div class="plan">
-        <label for="fname" class="input-name">First name:</label>
-        <input type="text" class="input-data" id="first-name" name="first-name" ><br>
-        <label for="last-name" class="input-name">Last name:</label>
-        <input type="last-name" class="input-data" id="last-name" name="last-name" ><br>
-        <label for="email" class="input-name">Email Address:</label>
-        <input type="email" class="input-data" id="email" name="email" ><br>
-        <label for="phone-number" class="input-name">Phone number:</label>
-        <input type="number" class="input-data" id="phone-number" name="phone-number" ><br>
-        <label for="date-name" class="input-name">Pick date / time:</label>
-        <input type="datetime" class="input-data" id="first-name" name="date-name" ><br>
-        <label for="adres-name" class="input-name">Pick up address:</label>
-        <input type="text" class="input-data" id="first-name" name="first-name" ><br>
-        <label for="d-adresname" class="input-name">Drop off address:</label>
-        <input type="text" class="input-data" id="first-name" name="first-name" ><br>
-
-        <button class="book-trip-home" href="plan.html">Book A Trip</button> 
-      </div>
+        <form class="plan" action="submit_form.php" method="post">
+            <label for="first-name" class="input-name">First name:</label>
+            <input type="text" class="input-data" id="first-name" name="first-name"><br>
+            <label for="last-name" class="input-name">Last name:</label>
+            <input type="text" class="input-data" id="last-name" name="last-name"><br>
+            <label for="email" class="input-name">Email Address:</label>
+            <input type="email" class="input-data" id="email" name="email"><br>
+            <label for="phone-number" class="input-name">Phone number:</label>
+            <input type="number" class="input-data" id="phone-number" name="phone-number"><br>
+            <label for="date-name" class="input-name">Pick date / time:</label>
+            <input type="datetime" class="input-data" id="date-name" name="date-name"><br>
+            <label for="address-name" class="input-name">Pick up address:</label>
+            <input type="text" class="input-data" id="address-name" name="address-name"><br>
+            <label for="d-address-name" class="input-name">Drop off address:</label>
+            <input type="text" class="input-data" id="d-address-name" name="d-address-name"><br>
+            <input type="submit" class="book-trip-home" value="Book A Trip">
+        </form>
+    </div>
+    
       
       <div class="social-icons">
         <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
